@@ -3,7 +3,7 @@
     "type": "library",
     
     "require": {
-        "giggsey/libphonenumber-for-php": "dev-master"
+        "giggsey/libphonenumber-for-php": "8.8.11"
     },
     
     "autoload": {
