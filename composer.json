@@ -2,6 +2,10 @@
     "name": "kofus/magenta-libphonenumber",
     "type": "library",
     
+    "require": {
+        "giggsey/libphonenumber-for-php": "dev-master"
+    },
+    
     "autoload": {
         "psr-0": {
             "Kofus\\LibPhoneNumber\\": "src/Kofus/LibPhoneNumber/"
