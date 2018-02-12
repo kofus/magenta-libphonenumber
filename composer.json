@@ -1,0 +1,11 @@
+{
+    "name": "kofus/magenta-libphonenumber",
+    "type": "library",
+    
+    "autoload": {
+        "psr-0": {
+            "Kofus\\LibPhoneNumber\\": "src/Kofus/LibPhoneNumber/"
+        },
+        "classmap" : ["Kofus/LibPhoneNumber/Module.php"]
+    }
+}
