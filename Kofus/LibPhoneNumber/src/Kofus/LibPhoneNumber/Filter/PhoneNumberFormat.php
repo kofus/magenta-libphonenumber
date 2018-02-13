@@ -14,9 +14,7 @@ class PhoneNumberFormat extends AbstractFilter
 	public function filter($value) 
 	{
 	    $phoneUtil = \libphonenumber\PhoneNumberUtil::getInstance();
-	    
         $phoneNumber = $phoneUtil->parse($value, $this->getOption('default_region'));
-	    
         
         return $phoneUtil->format($phoneNumber, $this->getOption('format'));
 	}
