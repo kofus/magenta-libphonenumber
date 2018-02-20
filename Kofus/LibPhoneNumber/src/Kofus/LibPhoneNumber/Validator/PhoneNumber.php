@@ -10,6 +10,8 @@ class PhoneNumber extends \Zend\Validator\AbstractValidator
     {
     	$this->setValue($value);
     	
+    	if (! $value) return true;
+    	
     	$phoneUtil = \libphonenumber\PhoneNumberUtil::getInstance();
     	
     	try {
